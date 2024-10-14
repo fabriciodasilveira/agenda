@@ -8,6 +8,21 @@ pip install django
 django-admin startproject project .
 ```
 
+Migrando a base de dados do Django
+
+```
+python manage.py migrations
+python manage.py migrate
+```
+
+Criando um super usuario no Django
+
+```
+python3 manage.py createsuperuser
+python3 manage.py changepassword USERNAME
+```
+
+
 Configurar o git
 
 ```
@@ -20,3 +35,4 @@ git add .
 git commit -m 'Mensagem'
 git remote add origin URL_DO_GIT
 ```
+
