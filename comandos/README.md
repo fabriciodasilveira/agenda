@@ -8,10 +8,16 @@ pip install django
 django-admin startproject project .
 ```
 
+Usuário ADM para teste
+
+```
+fsilveira
+```
+
 Migrando a base de dados do Django
 
 ```
-python manage.py migrations
+python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -22,6 +28,19 @@ python3 manage.py createsuperuser
 python3 manage.py changepassword USERNAME
 ```
 
+
+Criando Model no Django
+
+```
+Dentro do aplicativo contact criado existe um arquivo models.py, crie os models dentro desse arquivo
+```
+
+Registrar o Model dentro do ADMIN do Django
+
+```
+Arquivo admin dentro do app do projeto
+Para registrar usamos o Decorator @admin.regiter("Passando o Model")
+```
 
 Configurar o git
 
